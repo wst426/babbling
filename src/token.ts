@@ -3,9 +3,12 @@ export enum TokenKind {
   Sub,
   Mul,
   Div,
+  Equal,
+  Semicolon,
   LeftParen,
   RightParen,
   Number,
+  Identifier,
 }
 
 export class Token {

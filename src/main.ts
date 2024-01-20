@@ -16,7 +16,7 @@ async function main() {
       // console.log(tokens);
       const ast = new Parser(tokens).parse();
       // new ASTPrinter().print(ast);
-      console.log(interpreter.interpret(ast));
+      interpreter.interpret(ast);
     } catch (e) {
       console.log(e);
     }
